@@ -13,8 +13,15 @@ void input_data()
 	printf("Enter salary: ");
 	scanf("%d",&sal);
 }
+void display_data()
+{
+printf("\n Name of the person=%s",a);
+printf("\n Age of the person=%d",age);
+printf("\n Salary of the person=%d,sal);
+}
 void main()
 {
 clrscr();
 input_data();
+display_data();
 }
