@@ -1,1 +1,20 @@
 //program to input personal details
+#include<stdio.h>
+#include<conio.h>
+void input_data()
+{
+	char a[20];
+	int age;
+	int sal;
+	printf(" Enter name of the Person: ");
+	scanf("%s",&a);
+	printf(" Enter age of the person: ");
+	scanf("%d",&age);
+	printf("Enter salary: ");
+	scanf("%d",&sal);
+}
+void main()
+{
+clrscr();
+input_data();
+}
